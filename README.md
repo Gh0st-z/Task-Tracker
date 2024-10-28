@@ -8,5 +8,5 @@ Task tracker is a project used to track and manage your tasks. A simple command 
 
 Note: If you have not installed python, it is advised to install python first as without python the application will not run.
 
-# Git repository link:
-https://github.com/Gh0st-z/Task-Tracker
+# Project URL:
+https://roadmap.sh/projects/task-tracker
