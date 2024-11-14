@@ -14,8 +14,10 @@ def continue_operation():
              userInput()
         
         elif user_input.upper() == "N":
-             sys.exit("Thank you for using the program!")
+             print("Thank you for using the program!")
              print("-----------------------------------------")
+             input("Press any button to close the program...")
+             sys.exit(0)
         
         else:
              print("Please enter valid input!")
@@ -64,7 +66,10 @@ def userInput():
             continue_operation()
 
         elif user_input == 0:
-            sys.exit("Thank you for using our application!")
+            print("Thank you for using the program!")
+            print("-----------------------------------------")
+            input("Press any button to close the program...")
+            sys.exit(0)
 
         else:
             print("Enter the options that are available to you!")
