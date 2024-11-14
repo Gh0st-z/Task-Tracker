@@ -3,6 +3,7 @@ import json
 import os
 
 class Task:
+    
     def __init__(self):
         self.all_tasks = {}
         self.task_id = 0

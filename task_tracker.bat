@@ -2,6 +2,7 @@
 set file=menu.py
 
 REM Check if the Python file for the game exists
+
 if exist "%file%" (
     REM Check if Python is installed and in the PATH
     python --version >nul 2>&1
